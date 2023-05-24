@@ -1,0 +1,58 @@
+
+
+body{
+    background-color: lightgrey !important;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.container-calculator{
+    background-color: whitesmoke;
+    border-radius:20px 20px 100px 20px;
+    width: 500px;
+    height: 420px;
+}
+
+.calculator{
+  width: 80%;
+  margin: auto;
+}
+
+.calculator label{
+  font-size: 10px;
+}
+
+.calculator input{
+  width: 70px;
+  font-weight: bold;
+}
+
+button{
+  background-color: #864CFF;
+  cursor: pointer;
+  border: none;
+  width: 50px;
+  height:50px;
+}
+
+button img{
+  width: 25px;
+}
+
+.line{
+  width: 89%;
+  height: 2px;
+  background-color: lightgrey;
+}
+
+.years  h1:first-child,
+.months  h1:first-child,
+.days  h1:first-child {
+  color: #864CFF;
+}
+
+.years  h1,
+.months  h1,
+.days  h1 {
+  font-size: 70px;
+}
